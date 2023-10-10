@@ -65,6 +65,7 @@ button.normal {
 
 body {
   width: 100%;
+  overflow-x: hidden;
 }
 
 /*header start*/
@@ -125,38 +126,79 @@ body {
 }
 
 /*hero page*/
-#hero {
-  background-image: url("img/design.png");
-  height: 90vh;
+/* #hero {
+  background-image: url("img/stamp\ logo.jpg");
+  height: 70vh;
   width: 100%;
-  background-size: cover;
-  background-position: top 25% right 0;
-  padding: 0 80px;
+  margin-top: 2%;
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right 100px;
+  padding: 0px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+} */
+
+#hero {
+  background-image: url("img/stamp\ logo.jpg");
+  height: 70vh;
+  width: 100%;
+  margin-top: 2%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right 100px;
+  padding: 0px 80px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
 
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  #hero {
+    background-position: top right 50px; /* Adjust the position for smaller screens */
+  }
+}
+
+/* Additional media queries for even smaller screens if needed */
+@media (max-width: 480px) {
+  #hero {
+    background-position: top right 20px; /* Adjust the position for even smaller screens */
+  }
+}
+
+
+
 #hero h4 {
   padding-bottom: 15px;
+  margin-top: 10px;
 }
 
 #hero h1 {
-  color: #088178;
+  color: #000000;
 }
 
 #hero button {
-  background-image: url("img/button.png");
-  background-color: transparent;
-  color: #088178;
-  border: 0;
-  padding: 14px 80px 14px 65px;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 15px;
-
+  /* background-image: url("img/button.png"); */
+	/* background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%); */
+	background-color:#fe2323;
+	border-radius:10px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+  margin-top: 100px;
+	color:#ffffff;
+  font-family: "Spartan", sans-serif;
+	font-size:20px;
+	padding:12px 26px;
+	text-decoration:none;
+}
+#hero button:hover{
+  background-color:#ff3c3cd3;
 }
 
 #feature {
@@ -168,7 +210,7 @@ body {
 }
 
 #feature .fe-box {
-  width: 180px;
+  width: 240px;
   text-align: center;
   padding: 25px 15px;
   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
@@ -182,7 +224,7 @@ body {
 }
 
 #feature .fe-box img {
-  width: 100px;
+  width: 150px;
   margin-bottom: 10px;
 
 }
