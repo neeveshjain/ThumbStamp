@@ -125,25 +125,8 @@ body {
   align-items: center;
 }
 
-/*hero page*/
-/* #hero {
-  background-image: url("img/stamp\ logo.jpg");
-  height: 70vh;
-  width: 100%;
-  margin-top: 2%;
-  background-position: left;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top right 100px;
-  padding: 0px 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-} */
-
 #hero {
-  background-image: url("img/stamp\ logo.jpg");
+  background-image: url("img/Stamp/hero.png");
   height: 70vh;
   width: 100%;
   margin-top: 2%;
@@ -157,17 +140,16 @@ body {
   justify-content: center;
 }
 
-/* Media query for screens smaller than 768px */
+
 @media (max-width: 768px) {
   #hero {
-    background-position: top right 50px; /* Adjust the position for smaller screens */
+    background-position: top right 50px; 
   }
 }
 
-/* Additional media queries for even smaller screens if needed */
 @media (max-width: 480px) {
   #hero {
-    background-position: top right 20px; /* Adjust the position for even smaller screens */
+    background-position: top right 20px;
   }
 }
 
