@@ -153,6 +153,10 @@ body {
   }
 }
 
+.clienthead{
+  text-align: center;
+  font-size: larger;
+}
 
 
 #hero h4 {
@@ -165,8 +169,6 @@ body {
 }
 
 #hero button {
-  /* background-image: url("img/button.png"); */
-	/* background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%); */
 	background-color:#fe2323;
 	border-radius:10px;
 	border:1px solid #000000;
@@ -188,17 +190,16 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-
 }
 
 #feature .fe-box {
-  width: 240px;
+  width: 220px;
   text-align: center;
   padding: 25px 15px;
   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
   border: 1px solid #cce7d0;
-  border-radius: 4px;
-  margin: 15px 0;
+  border-radius: 40px;
+  margin: 15px 10px;
 }
 
 #feature .fe-box:hover {
