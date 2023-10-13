@@ -11,8 +11,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Global Styles */
-
 h1 {
   font-size: 50px;
   line-height: 64px;
@@ -195,7 +193,7 @@ body {
 }
 
 #feature .fe-box {
-  width: 220px;
+  width: 205px;
   text-align: center;
   padding: 25px 15px;
   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
@@ -209,7 +207,7 @@ body {
 }
 
 #feature .fe-box img {
-  width: 150px;
+  width: 120px;
   margin-bottom: 10px;
 
 }
@@ -220,7 +218,7 @@ body {
   line-height: 1;
   border-radius: 4px;
   color: #088178;
-  background-color: #fddde4;
+  /* background-color: #fddde4; */
 }
 
 #feature .fe-box :nth-child(2)h6 {
