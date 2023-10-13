@@ -155,7 +155,9 @@ body {
 
 .clienthead{
   text-align: center;
-  font-size: larger;
+  font-size: 25px;
+  font-weight: 500;
+  padding-top: 6%;
 }
 
 
